@@ -69,15 +69,15 @@ Redo primary and foreign keys
 * express-jwt
 * dotenv
 * axios
+* bcrypt
+* jsonwebtoken
+* jwks-rsa
+
+used jwt instead for authentication
+* ~~* auth0~~
+
 
 heroku no longer offer free tier
 
 * ~~* heroku~~
 * ~~* jawsDB mysql~~
-
-used jwt instead for authentication
-
-* ~~* auth0~~
-* ~~* jsonwebtoken~~
-* ~~* jwks-rsa~~
-* ~~* bcrypt~~
