@@ -72,10 +72,11 @@ Redo primary and foreign keys
 * bcrypt
 * jsonwebtoken
 * jwks-rsa
+* aiven (cloud data platform)
 
 used jwt instead for authentication
-* ~~* auth0~~
 
+* ~~* auth0~~
 
 heroku no longer offer free tier
 
