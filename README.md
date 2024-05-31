@@ -64,7 +64,7 @@ Redo primary and foreign keys
 
 * node.js
 * nodemon
-* mysql2
+
 * express
 * express-jwt
 * dotenv
@@ -72,7 +72,9 @@ Redo primary and foreign keys
 * bcrypt
 * jsonwebtoken
 * jwks-rsa
-* aiven (cloud data platform)
+* postgresql
+
+* ~~* mysql2~~
 
 used jwt instead for authentication
 

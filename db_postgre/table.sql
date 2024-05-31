@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS users, found, lost;
 
+
 CREATE TABLE IF NOT EXISTS users (
   id INT NOT NULL AUTO_INCREMENT,
   username VARCHAR(50) NOT NULL UNIQUE,
@@ -25,6 +26,7 @@ CREATE TABLE IF NOT EXISTS found (
     ON DELETE CASCADE
 );
 
+
 CREATE TABLE IF NOT EXISTS lost (
   userId INT,
   gender VARCHAR(50),
@@ -40,9 +42,3 @@ CREATE TABLE IF NOT EXISTS lost (
   REFERENCES users (id)
     ON DELETE CASCADE
 );
-
-
-
-
-	
-

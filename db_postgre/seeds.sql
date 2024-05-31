@@ -1,7 +1,9 @@
+
 INSERT INTO users
 	(username, email, password)
 VALUES 
-    ('test', 'test@gmail.com', 'test');
+   
+ 
 
 INSERT INTO found
     (gender, name, species, date, email, phone, comments)
@@ -11,6 +13,7 @@ VALUES
 	('Female', ' ', 'Cat', '03.16.22', 'email@email.com', '555-555-5555', 'found cat'),
     ('Male', ' ', 'Rabbit', '08.19.22', 'email@email.com', '555-555-5555', 'found rabbit'),
 	('Female', ' ', 'Turtle', '08.19.22', 'email@email.com', '555-555-5555', 'found turtle');
+
 
 INSERT INTO lost
     (gender, name, species, date, email, phone, comments)
