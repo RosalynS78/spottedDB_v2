@@ -72,9 +72,9 @@ Redo primary and foreign keys
 * bcrypt
 * jsonwebtoken
 * jwks-rsa
-* postgresql
-
-* ~~* mysql2~~
+* mysql2
+* jawsDB mysql
+* render
 
 used jwt instead for authentication
 
